@@ -6,7 +6,7 @@
 
 [![Blog](https://img.shields.io/badge/Blog-noahnote.com-58A6FF?style=flat-square&logo=astro&logoColor=white)](https://www.noahnote.com)
 [![Email](https://img.shields.io/badge/Email-qinfuyaoo@icloud.com-58A6FF?style=flat-square&logo=maildotru&logoColor=white)](mailto:qinfuyaoo@icloud.com)
-[![Instagram](https://img.shields.io/badge/Instagram-qfyhhhhhh-58A6FF?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/qfyhhhhhh)
+[![X](https://img.shields.io/badge/X-NoahBuilds__-58A6FF?style=flat-square&logo=x&logoColor=white)](https://x.com/NoahBuilds_)
 [![Views](https://komarev.com/ghpvc/?username=imnotnoahhh&color=58A6FF&style=flat-square&label=Profile+Views)](https://github.com/imnotnoahhh)
 
 </div>
@@ -32,20 +32,40 @@ class Noah:
 <tr>
 <td width="50%">
 
-**[Rethinking-Augmentation](https://github.com/imnotnoahhh/Rethinking-Augmentation)**
-<br>
-PyTorch implementation of "When More is Not Better: Rethinking Data Augmentation under Small-Sample Regimes"
-<br>
-`Python` `PyTorch` `Deep Learning`
-
-</td>
-<td width="50%">
-
 **[Mole](https://github.com/imnotnoahhh/Mole)** 🐹
 <br>
 Deep clean and optimize your Mac
 <br>
-`macOS` `Swift`
+`Shell` `macOS`
+
+</td>
+<td width="50%">
+
+**[Rethinking-Augmentation](https://github.com/imnotnoahhh/Rethinking-Augmentation)**
+<br>
+Official PyTorch implementation of "When More is Not Better: Rethinking Data Augmentation under Small-Sample Regimes"
+<br>
+`Python` `PyTorch` `Deep Learning`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[vex](https://github.com/imnotnoahhh/vex)**
+<br>
+A fast, multi-language version manager for macOS
+<br>
+`Rust`
+
+</td>
+<td width="50%">
+
+**[MoleUI](https://github.com/imnotnoahhh/MoleUI)**
+<br>
+Mole 的 macOS 原生 GUI 版本
+<br>
+`Swift` `macOS`
 
 </td>
 </tr>
@@ -73,9 +93,9 @@ My personal blog at [noahnote.com](https://www.noahnote.com)
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,pytorch,java,spring,swift,dart,flutter,vue,django" />
+<img src="https://skillicons.dev/icons?i=python,pytorch,rust,go,java,spring,swift,dart,flutter" />
 <br>
-<img src="https://skillicons.dev/icons?i=docker,aws,postgresql,redis,git,bash,heroku,figma,arduino" />
+<img src="https://skillicons.dev/icons?i=vue,django,docker,aws,postgresql,redis,git,bash,heroku" />
 
 </div>
 
