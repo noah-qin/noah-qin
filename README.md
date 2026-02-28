@@ -103,11 +103,11 @@ Mole 的 macOS 原生 GUI 版本
 
 <div align="center">
 
-<img height="170" src="./profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" />
-<img height="170" src="./profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Top Languages" />
+<img height="180" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" />&nbsp;
+<img height="180" src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Top Languages" />
 
 <br>
 
-<img src="./profile-summary-card-output/tokyonight/0-profile-details.svg" alt="Profile Details" />
+<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile Details" />
 
 </div>
