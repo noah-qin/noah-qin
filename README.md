@@ -103,6 +103,11 @@ Mole 的 macOS 原生 GUI 版本
 
 <div align="center">
 
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=imnotnoahhh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=imnotnoahhh&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+
+<br>
+
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=imnotnoahhh&theme=tokyonight&hide_border=true" alt="streak stats" />
 
 </div>
