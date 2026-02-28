@@ -101,13 +101,12 @@ Mole 的 macOS 原生 GUI 版本
 
 ### GitHub Activity
 
-<div align="center">
-
-<img height="180" src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" />&nbsp;
-<img height="180" src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Top Languages" />
-
-<br>
-
-<img src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile Details" />
-
-</div>
+<table align="center" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><img src="./profile-summary-card-output/github_dark/3-stats.svg" alt="Stats" /></td>
+<td><img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" alt="Top Languages" /></td>
+</tr>
+<tr>
+<td colspan="2"><img width="100%" src="./profile-summary-card-output/github_dark/0-profile-details.svg" alt="Profile Details" /></td>
+</tr>
+</table>
