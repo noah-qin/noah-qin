@@ -72,7 +72,7 @@ A fast, multi-language version manager for macOS
 
 **[MoleUI](https://github.com/imnotnoahhh/MoleUI)**
 <br>
-Native macOS GUI for Mole CLI (by tw93)
+Native macOS GUI for tw93/Mole, built with SwiftUI
 <br>
 `Swift`
 
