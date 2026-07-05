@@ -5,9 +5,9 @@
 <br>
 
 [![Blog](https://img.shields.io/badge/Blog-noahnote.com-58A6FF?style=flat-square&logo=astro&logoColor=white)](https://www.noahnote.com)
-[![Email](https://img.shields.io/badge/Email-qinfuyaoo@icloud.com-58A6FF?style=flat-square&logo=maildotru&logoColor=white)](mailto:qinfuyaoo@icloud.com)
+[![Email](https://img.shields.io/badge/Email-hi@noahqin.dev-58A6FF?style=flat-square&logo=maildotru&logoColor=white)](mailto:hi@noahqin.dev)
 [![X](https://img.shields.io/badge/X-NoahBuilds__-58A6FF?style=flat-square&logo=x&logoColor=white)](https://x.com/NoahBuilds_)
-[![Views](https://komarev.com/ghpvc/?username=imnotnoahhh&color=58A6FF&style=flat-square&label=Profile+Views)](https://github.com/imnotnoahhh)
+[![Views](https://komarev.com/ghpvc/?username=noah-qin&color=58A6FF&style=flat-square&label=Profile+Views)](https://github.com/noah-qin)
 
 </div>
 
