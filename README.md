@@ -5,7 +5,7 @@
 <br>
 
 [![Blog](https://img.shields.io/badge/Blog-noahqin.dev-58A6FF?style=flat-square&logo=astro&logoColor=white)](https://noahqin.dev)
-[![Email](https://img.shields.io/badge/Email-hi@noahqin.dev-58A6FF?style=flat-square&logo=maildotru&logoColor=white)](mailto:hi@noahqin.dev)
+[![Email](https://img.shields.io/badge/Email-noah@noahqin.dev-58A6FF?style=flat-square&logo=maildotru&logoColor=white)](mailto:noah@noahqin.dev)
 [![X](https://img.shields.io/badge/X-NoahBuilds__-58A6FF?style=flat-square&logo=x&logoColor=white)](https://x.com/NoahBuilds_)
 [![Views](https://komarev.com/ghpvc/?username=noah-qin&color=58A6FF&style=flat-square&label=Profile+Views)](https://github.com/noah-qin)
 
