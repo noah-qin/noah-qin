@@ -32,7 +32,7 @@ class Noah:
 <tr>
 <td width="50%">
 
-**[Rethinking-Augmentation](https://github.com/imnotnoahhh/Rethinking-Augmentation)**
+**[Rethinking-Augmentation](https://github.com/noah-qin/Rethinking-Augmentation)**
 <br>
 Official PyTorch implementation of "When More is Not Better: Rethinking Data Augmentation under Small-Sample Regimes". Discover why simple > complex in low-data settings.
 <br>
@@ -41,7 +41,7 @@ Official PyTorch implementation of "When More is Not Better: Rethinking Data Aug
 </td>
 <td width="50%">
 
-**[personal-blog](https://github.com/imnotnoahhh/personal-blog)**
+**[personal-blog](https://github.com/noah-qin/personal-blog)**
 <br>
 `Astro`
 
@@ -50,7 +50,7 @@ Official PyTorch implementation of "When More is Not Better: Rethinking Data Aug
 <tr>
 <td width="50%">
 
-**[vex](https://github.com/imnotnoahhh/vex)**
+**[vex](https://github.com/noah-qin/vex)**
 <br>
 A fast, multi-language version manager for macOS
 <br>
@@ -59,7 +59,7 @@ A fast, multi-language version manager for macOS
 </td>
 <td width="50%">
 
-**[MoleUI](https://github.com/imnotnoahhh/MoleUI)**
+**[MoleUI](https://github.com/noah-qin/MoleUI)**
 <br>
 Native macOS GUI for tw93/Mole, built with SwiftUI
 <br>
@@ -70,7 +70,7 @@ Native macOS GUI for tw93/Mole, built with SwiftUI
 <tr>
 <td width="50%">
 
-**[Mole](https://github.com/imnotnoahhh/Mole)**
+**[Mole](https://github.com/noah-qin/Mole)**
 <br>
 🐹 Deep clean and optimize your Mac.
 <br>
@@ -79,7 +79,7 @@ Native macOS GUI for tw93/Mole, built with SwiftUI
 </td>
 <td width="50%">
 
-**[More Projects →](https://github.com/imnotnoahhh?tab=repositories)**
+**[More Projects →](https://github.com/noah-qin?tab=repositories)**
 
 </td>
 </tr>
