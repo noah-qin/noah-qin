@@ -70,16 +70,10 @@ Native macOS GUI for tw93/Mole, built with SwiftUI
 <tr>
 <td width="50%">
 
-**[Mole](https://github.com/noah-qin/Mole)**
-<br>
-🐹 Deep clean and optimize your Mac.
-<br>
-`Shell`
+**[More Projects →](https://github.com/noah-qin?tab=repositories)**
 
 </td>
 <td width="50%">
-
-**[More Projects →](https://github.com/noah-qin?tab=repositories)**
 
 </td>
 </tr>
