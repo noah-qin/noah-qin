@@ -19,3 +19,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
+          AUTO_PUSH: false
+
+      - name: Keep only the transparent theme
+        run: |
+          if [ -d profile-summary-card-output ]; then
+            find profile-summary-card-output -mindepth 1 -maxdepth 1 -type d ! -name transparent -exec rm -rf {} +
+            rm -f profile-summary-card-output/README.md
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A profile-summary-card-output
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update profile summary cards (transparent only)" && git push)
