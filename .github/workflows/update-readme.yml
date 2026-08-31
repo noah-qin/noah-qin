@@ -11,15 +11,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
         with:
-          node-version: '20'
+          deno-version: v2.x
 
       - name: Update README with pinned repos
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: node update-pinned.js
+        run: deno task update
 
       - name: Commit and push if changed
         run: |
