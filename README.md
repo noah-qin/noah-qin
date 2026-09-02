@@ -43,7 +43,7 @@ Official PyTorch implementation of "When More is Not Better: Rethinking Data Aug
 
 **[personal-blog](https://github.com/noah-qin/personal-blog)**
 <br>
-`Astro`
+`Vento`
 
 </td>
 </tr>
