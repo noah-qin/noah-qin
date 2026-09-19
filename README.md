@@ -72,7 +72,7 @@ Native macOS GUI for tw93/Mole, built with SwiftUI
 
 **[Corta](https://github.com/noah-qin/Corta)**
 <br>
-An uncompromisingly native macOS terminal emulator, built from scratch in pure Swift with a hand-written VT engine, Metal rendering, first-class CJK input, and zero third-party dependencies.
+A native macOS terminal built in Swift, with Metal rendering, CJK input, and a dependency-free terminal core.
 <br>
 `Swift`
 
