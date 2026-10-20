@@ -1,4 +1,4 @@
-name: Update README with Pinned Repos
+name: Update README with Latest Posts
 
 on:
   schedule:
@@ -16,9 +16,7 @@ jobs:
         with:
           deno-version: v2.x
 
-      - name: Update README with pinned repos
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Update README with latest posts
         run: deno task update
 
       - name: Commit and push if changed
@@ -26,4 +24,4 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update pinned repositories" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: auto-update latest posts" && git push)

@@ -1,8 +1,8 @@
 {
   "tasks": {
-    "update": "deno run --allow-net=api.github.com --allow-read=README.md --allow-write=README.md --allow-env=GITHUB_TOKEN update-pinned.ts"
+    "update": "deno run --allow-net=noahqin.dev --allow-read=README.md --allow-write=README.md update-writing.ts"
   },
   "fmt": {
-    "exclude": ["profile-summary-card-output/", ".github/", "README.md"]
+    "exclude": [".github/", "README.md"]
   }
 }

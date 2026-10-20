@@ -2,29 +2,59 @@
 
 # Noah Qin
 
-**macOS & developer tools** · Building [Corta](https://github.com/noah-qin/Corta) · [Cobay](https://noahqin.dev) · Beijing
+I build native macOS developer tools in Swift and Rust, and co-founded [Cobay](https://noahqin.dev/blog/why-i-co-founded-cobay/), a community for AI builders.
 
-[noahqin.dev](https://noahqin.dev) · [X @NoahBuilds_](https://x.com/NoahBuilds_) · [Email](mailto:noah@noahqin.dev)
+[noahqin.dev](https://noahqin.dev) · [X @NoahBuilds_](https://x.com/NoahBuilds_) · [Email](mailto:noah@noahqin.dev) · Beijing
 
 </div>
 
 ---
 
-### Now shipping
+### macOS tools I ship
 
-**[Corta](https://github.com/noah-qin/Corta)** — a native macOS terminal in Swift: Metal rendering, CJK / IME, dependency-free VT core.  
-[Download latest](https://github.com/noah-qin/Corta/releases/latest) · macOS 26+
+**[Corta](https://github.com/noah-qin/Corta)** — a native macOS terminal: Metal rendering, first-class CJK / IME input, dependency-free VT core.  
+[Download](https://github.com/noah-qin/Corta/releases/latest) · macOS 26+
 
-### Also building
+<a href="https://github.com/noah-qin/Corta"><img src="https://raw.githubusercontent.com/noah-qin/Corta/HEAD/docs/brand/screenshot.png" alt="Corta screenshot" width="100%" /></a>
 
-| Project | What it is |
-| --- | --- |
-| **[MoleUI](https://github.com/noah-qin/MoleUI)** | Native SwiftUI GUI for [tw93/Mole](https://github.com/tw93/Mole) |
-| **[vex](https://github.com/noah-qin/vex)** | Fast multi-language version manager for macOS (Rust) |
-| **[Rethinking-Augmentation](https://github.com/noah-qin/Rethinking-Augmentation)** | PyTorch code for small-sample data augmentation research |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-I also run **Cobay**, a builder community for AI founders and engineers — stories and notes on [noahqin.dev](https://noahqin.dev).
+**[MoleUI](https://github.com/noah-qin/MoleUI)** — native SwiftUI GUI for [tw93/Mole](https://github.com/tw93/Mole)
+
+<a href="https://github.com/noah-qin/MoleUI"><img src="https://raw.githubusercontent.com/noah-qin/MoleUI/main/Resources/screenshot.png" alt="MoleUI screenshot" width="100%" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+**[vex](https://github.com/noah-qin/vex)** — fast multi-language version manager for macOS, in Rust
+
+<a href="https://github.com/noah-qin/vex"><img src="https://raw.githubusercontent.com/noah-qin/vex/main/docs/demo/vex-install.gif" alt="vex install demo" width="100%" /></a>
+
+</td>
+</tr>
+</table>
+
+### Research
+
+**[When More is Not Better](https://github.com/noah-qin/Rethinking-Augmentation)** — rethinking data augmentation under small-sample regimes (PyTorch).
+
+### Writing
+
+<!-- WRITING:START -->
+- [A Think Tank of Bots](https://noahqin.dev/blog/grok-bot-meetup-beijing/) · 2026-09-19
+- [You Can't Build a Community with Code Alone](https://noahqin.dev/blog/why-i-co-founded-cobay/) · 2026-07-06
+- [The Best Part of AI Coding Wasn't the AI](https://noahqin.dev/blog/cafe-cursor-beijing/) · 2026-07-04
+<!-- WRITING:END -->
+
+[All posts →](https://noahqin.dev)
 
 ### Stack I use a lot
 
 `Swift` · `Rust` · `Python` / `PyTorch` · `TypeScript` · macOS / AppKit / SwiftUI
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/noah-qin/noah-qin/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/noah-qin/noah-qin/output/github-snake.svg" alt="Contribution snake" width="100%" />
+</picture>
