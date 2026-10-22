@@ -17,12 +17,7 @@ I build native macOS developer tools in Swift and Rust, and co-founded [Cobay](h
 
 <a href="https://github.com/noah-qin/Corta"><img src="https://raw.githubusercontent.com/noah-qin/Corta/HEAD/docs/brand/screenshot.png" alt="Corta screenshot" width="100%" /></a>
 
-**[vex](https://github.com/noah-qin/vex)** — a fast multi-language version manager for macOS, in Rust.  
-`brew install noah-qin/vex/vex`
-
-<a href="https://github.com/noah-qin/vex"><img src="https://raw.githubusercontent.com/noah-qin/vex/main/docs/demo/vex-install.gif" alt="vex install demo" width="100%" /></a>
-
-<sub>Archived: [MoleUI](https://github.com/noah-qin/MoleUI), an unofficial SwiftUI GUI for [tw93/Mole](https://github.com/tw93/Mole), retired now that Mole ships an official Mac app. I still contribute to [Mole](https://github.com/tw93/Mole/pulls?q=author%3Anoah-qin).</sub>
+<sub>Archived: [vex](https://github.com/noah-qin/vex), a multi-language version manager for macOS in Rust, and [MoleUI](https://github.com/noah-qin/MoleUI), an unofficial SwiftUI GUI for [tw93/Mole](https://github.com/tw93/Mole), retired now that Mole ships an official Mac app. I still contribute to [Mole](https://github.com/tw93/Mole/pulls?q=author%3Anoah-qin).</sub>
 
 ### Research
 
