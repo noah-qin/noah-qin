@@ -26,9 +26,9 @@ I build native macOS developer tools in Swift and Rust, and co-founded [Cobay](h
 ### Writing
 
 <!-- WRITING:START -->
-- [A Think Tank of Bots](https://noahqin.dev/blog/grok-bot-meetup-beijing/) · 2026-09-19
-- [You Can't Build a Community with Code Alone](https://noahqin.dev/blog/why-i-co-founded-cobay/) · 2026-07-06
-- [The Best Part of AI Coding Wasn't the AI](https://noahqin.dev/blog/cafe-cursor-beijing/) · 2026-07-04
+- [A Think Tank of Bots](https://noahqin.dev/blog/grok-bot-meetup-beijing) · 2026-09-19
+- [You Can't Build a Community with Code Alone](https://noahqin.dev/blog/why-i-co-founded-cobay) · 2026-07-06
+- [The Best Part of AI Coding Wasn't the AI](https://noahqin.dev/blog/cafe-cursor-beijing) · 2026-07-04
 <!-- WRITING:END -->
 
 [All posts →](https://noahqin.dev)
