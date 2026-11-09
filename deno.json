@@ -1,8 +1,0 @@
-{
-  "tasks": {
-    "update": "deno run --allow-net=noahqin.dev --allow-read=README.md --allow-write=README.md update-writing.ts"
-  },
-  "fmt": {
-    "exclude": [".github/", "README.md"]
-  }
-}

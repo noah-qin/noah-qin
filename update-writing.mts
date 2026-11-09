@@ -1,4 +1,5 @@
-// 用 noahqin.dev 的 RSS 更新 GitHub 主页 README 的 Writing 区块(Deno + TypeScript)
+// 用 noahqin.dev 的 RSS 更新 GitHub 主页 README 的 Writing 区块。
+import { readFile, writeFile } from "node:fs/promises";
 
 const FEED_URL = "https://noahqin.dev/rss.xml";
 const POST_COUNT = 3;
@@ -8,7 +9,7 @@ const END_MARKER = "<!-- WRITING:END -->";
 interface Post {
   title: string;
   link: string;
-  date: Date;
+  publishedAt: number;
 }
 
 function decodeEntities(text: string): string {
@@ -36,16 +37,19 @@ async function fetchPosts(): Promise<Post[]> {
     .map((item) => ({
       title: readTag(item, "title"),
       link: readTag(item, "link"),
-      date: new Date(readTag(item, "pubDate")),
+      publishedAt: Date.parse(readTag(item, "pubDate")),
     }))
-    .sort((a, b) => b.date.getTime() - a.date.getTime())
+    .sort((a, b) => b.publishedAt - a.publishedAt)
     .slice(0, POST_COUNT);
 }
 
 function formatPosts(posts: Post[]): string {
   return posts
     .map((post) => {
-      const date = post.date.toISOString().slice(0, 10);
+      const date = Temporal.Instant.fromEpochMilliseconds(post.publishedAt)
+        .toZonedDateTimeISO("UTC")
+        .toPlainDate()
+        .toString();
       const title = post.title.replace(/[[\]]/g, "\\$&");
       return `- [${title}](${post.link}) · ${date}`;
     })
@@ -59,7 +63,7 @@ async function updateReadme(): Promise<void> {
   console.log(`Found ${posts.length} posts`);
 
   const readmePath = "./README.md";
-  const readme = await Deno.readTextFile(readmePath);
+  const readme = await readFile(readmePath, "utf8");
   const startIndex = readme.indexOf(START_MARKER);
   const endIndex = readme.indexOf(END_MARKER, startIndex);
   if (startIndex === -1 || endIndex === -1) {
@@ -70,7 +74,7 @@ async function updateReadme(): Promise<void> {
     "\n" + formatPosts(posts) + "\n" +
     readme.substring(endIndex);
 
-  await Deno.writeTextFile(readmePath, newReadme);
+  await writeFile(readmePath, newReadme, "utf8");
   console.log("README.md updated successfully!");
 }
 
@@ -78,5 +82,5 @@ try {
   await updateReadme();
 } catch (error) {
   console.error("Error updating README:", error);
-  Deno.exit(1);
+  process.exitCode = 1;
 }

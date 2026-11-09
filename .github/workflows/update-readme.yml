@@ -11,13 +11,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      - name: Setup Deno
-        uses: denoland/setup-deno@v2
+      - name: Setup Node.js
+        uses: actions/setup-node@v7
         with:
-          deno-version: v2.x
+          node-version: '26.12.1'
 
       - name: Update README with latest posts
-        run: deno task update
+        run: >-
+          node --permission --allow-net --allow-fs-read=update-writing.mts
+          --allow-fs-read=README.md --allow-fs-write=README.md update-writing.mts
 
       - name: Commit and push if changed
         run: |
